@@ -6,7 +6,7 @@ from tensorflow.keras.utils import Sequence
 
 IMG_SIZE = 224
 SEQ_LEN = 20
-BATCH_SIZE = 4   # reduce to 2 if RAM issue
+BATCH_SIZE = 2
 
 
 class DataGenerator(Sequence):
